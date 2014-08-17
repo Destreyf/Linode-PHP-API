@@ -159,7 +159,7 @@ class Linode {
 if(!class_exists('Request')){
     class Request {
         public static function forge($url){
-            return new MyCurl($url);
+            return new LinodeCurl($url);
         }
     }
     
