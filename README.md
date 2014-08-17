@@ -65,7 +65,9 @@ This will automatically echo out the command structure for the API function requ
 
 Why, One already exists
 =======================
-Its true that there's already a Linode API (found here https://github.com/krmdrms/linode/) and its pretty good, with the exception that it has multiple requirements, as well the API is not based on the api.spec command (as far as i can tell).  The API probably doesn't get changed too often, but the fact that we can use the spec to build a dynamically available set of API commands is worth gold in my opinion.
+Its true that there's already a Linode API (found here https://github.com/krmdrms/linode/) and its pretty good, with the exception that it has multiple requirements, as well the API is not based on the api.spec command (as far as i can tell).
+
+The API probably doesn't get changed too often, but the fact that we can use the spec to build a dynamically available set of API commands is worth gold in my opinion.
 
 What's the Request::forge???
 ============================
