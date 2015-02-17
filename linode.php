@@ -6,6 +6,9 @@ class Linode {
     
     protected $_spec = null;
     
+    private $api_version = null;
+    private $methods = array();
+    
     public function __construct($token,$url=null){
         // Config Load?
         $this->_config = array(
